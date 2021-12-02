@@ -8,3 +8,23 @@
 
 //Conversão de base decimal para binária
 
+function Convert() {
+
+
+var base1 = document.getElementById("base1").value; 
+var base2 = document.getElementById("base2").value; 
+var n1;
+var sn1;
+var bin;  
+var dec; 
+var hex; 
+var oct; 
+
+if (flexRadioDefaultdec1.checked && flexRadioDefaultdec1.checked){
+    //Conversão decimal para binário:
+    while (n1 > 0) {
+        n1 % 10;
+        n1 = n1 / 10;
+        
+    }
+}
